@@ -62,8 +62,11 @@
 
 
 /*blog post needs to be cover not contain*/
-.blog-p-card--post .p-image-container__image { object-fit: cover; }
-
+.blog-p-card--post .p-image-container__image { 
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
 
 /* mobile hacks */
 @media (max-width: 1210px) {
